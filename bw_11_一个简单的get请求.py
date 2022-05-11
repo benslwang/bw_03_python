@@ -1,4 +1,4 @@
-# 导入请求模块
+# 导入请求模块:
 import urllib.request
 url = "http://www.baidu.com"
 # 发起请求，设置超时为1秒
