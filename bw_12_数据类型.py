@@ -1,4 +1,4 @@
-x = ["apple", "banana", "cherry"]  # list 列表
+x = ["apple", "banana", "cherry"]  # list列表
 print(type(x))
 x = ("apple", "banana", "cherry")  # tuple元祖
 print(type(x))
