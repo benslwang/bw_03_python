@@ -4,10 +4,9 @@
 """
 a = 2
 b = 3
-c = a + b
+c = a - b
 d = a - b
-e = c * d
-print(e)
+print(c, d)
 
 
 def sum_2_num(num1, num2):
