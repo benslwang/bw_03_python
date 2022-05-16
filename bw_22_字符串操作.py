@@ -102,3 +102,32 @@ poem_list = poem2.split()
 # 拼接字符串
 result = "　".join(poem_list)
 print(result)
+
+# 字符串切片
+# 切片方法适用于字符串、列表、元祖
+# 切片使用索引值来限定范围，从一个大的字符串中切出一个小的字符串
+# 字典是一个无序的组合，是使用键值对保存数据
+# 字符串[开始索引:结束索引:步长]
+
+str_num = "0123456789"
+# 截取从2~5位置的字符串
+print(str_num[2:6])
+# 截取从2~末尾的字符串
+print(str_num[2:])
+# 截取从开始~5位置的字符串
+print(str_num[:6])
+# 截取完整的字符串
+print(str_num[:])
+# 从开始位置，每隔一个字符截取字符串
+print(str_num[::2])
+# 从索引1开始，每隔一个取一个
+print(str_num[1::2])
+# 截取从2~末尾-1的字符串
+print(str_num[2:-1])
+# 截取字符串末尾两个字符
+print(str_num[-2:])
+# 字符串的逆序
+print(str_num[-1::-1])
+# 或者：
+print(str_num[::-1])
+
